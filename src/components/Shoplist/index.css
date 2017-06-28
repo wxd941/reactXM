@@ -1,0 +1,8 @@
+ul,li {margin: 0; padding: 0;}
+
+.shop-list { overflow-x:auto;white-space: nowrap;width: 100%;}
+.shop-list li { list-style: none; width: 22%; padding: 10px;display: inline-block;}
+.shop-list img { width: 100%; height:355px;}
+.shop-list p {font-size: 12px;}
+/* 布局的时候，直接设置 设计稿量到的尺寸不需要除以2，
+自适应部分需要写百分比或vw(不要用rem.js)*/
